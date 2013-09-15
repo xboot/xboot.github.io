@@ -1,7 +1,7 @@
 exclude:      ["jekyll-serve.sh", "README.md"]
 markdown:     rdiscount
 pygments:     true
-paginate:     4
+paginate:     5
 permalink:    /:categories/:title
 
 title:        xboot - the soc software stack
