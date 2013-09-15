@@ -4,19 +4,13 @@ pygments:     true
 paginate:     4
 permalink:    /:categories/:title
 
-title:        XBOOT - An extensible bootloader
-feed:         /atom.xml
+title:        xboot - the soc software stack
+feed:         /feed.xml
 author:
     name:     Jianjun Jiang
     email:    jerryjianjun@gmail.com
-description:  "xboot, an extensible bootloader"
-
-about:        "I am xboot.I love all kinds of design, attention to the Internet dynamic, dedicated web front development, learn UI and UED."
-follow:
-    github:   https://github.com/xboot/xboot
-    twitter:  http://www.twitter.com/#
-description:  "xboot, super xboot ..."
+description:  "xboot, the open source soc software stack"
 
 style:        /css/style.css
 blogName:     XBOOT
-blogDesc:     An extensible bootloader.
+blogDesc:     The soc software stack
