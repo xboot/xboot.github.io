@@ -1,10 +1,10 @@
+exclude:      ["jekyll-serve.sh", "README.md"]
 markdown:     rdiscount
 pygments:     true
 paginate:     4
 permalink:    /:categories/:title
 
 title:        XBOOT - An extensible bootloader
-url:          /xboot
 feed:         /atom.xml
 author:
     name:     Jianjun Jiang
@@ -14,8 +14,8 @@ description:  "xboot, an extensible bootloader"
 about:        "I am xboot.I love all kinds of design, attention to the Internet dynamic, dedicated web front development, learn UI and UED."
 follow:
     github:   https://github.com/xboot/xboot
-    twitter:  http://www.twitter.com/piznlin
-description:  "PIZn's blog theme -- Black Cube Theme 1.0 "
+    twitter:  http://www.twitter.com/#
+description:  "xboot, super xboot ..."
 
 style:        /css/style.css
 blogName:     XBOOT
