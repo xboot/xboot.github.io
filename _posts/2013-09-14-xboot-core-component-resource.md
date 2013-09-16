@@ -1,9 +1,9 @@
 ---
 layout: post
-title: xboot中resource设计技术详解
+title: xboot核心组件之resource技术详解
 description: 在设计模式里，我们经常听到各种OO思想，面向对象比较符合人的思维，也因此而大行其道。本质上任何一个对象，都是由属性和方法组成，换另一种说法，就是由数据和驱动构成。再具体到设备驱动(模块组件)而言就是由device和driver构成。其中device是属性，描述这个设备，driver是方法，按一定的方法操作设备。为了实现模块的组态化，我们需要让设备与驱动的分离，比如一个驱动，通过传递不同的设备描述自动生成对应的设备驱动，在xboot中，resource是描述设备属性，driver是驱动，device是最终生成的设备驱动(模块组件)，通过名字进行匹配。因此，系统中已提供大量的通用驱动，只需提供具体的设备描述，就可自动生成一个设备驱动(模块组件)，这样的设计已将组态化推向极限了。
 categories: articles
-key: xboot, kobj
+key: xboot, resource
 ---
 
 ###引言

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: xboot中kobj设计技术详解
+title: xboot核心组件之kobj技术详解
 description: kobj顾名思意，即内核object，其层次表现上为一颗倒置的树，用来管理包括各种驱动模块，核心组件，运行时状态等。在文件系统中，通过sysfs接口绑定kobj节点，来实现对该节点的读写操作。sysfs接口有两种最基本的用途：1，组件的外部操作接口，比如应用可以通过此接口操作设备。2，调试驱动模块，或查看运行时状态。
 categories: articles
 key: xboot, kobj

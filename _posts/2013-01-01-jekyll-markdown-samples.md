@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 文档编辑语言Markdown语法参考
-description: 此为编辑文档的所需掌握的常用MarkDown语法。Markdown是一种轻量级的标记语言，其已成为可读性最大并可再发行的可输入输出的格式。这种语言创建灵感来自于已经存在的带标记的电子邮件文本。Markdown允许HTML语法，所以使用者如果需要可以直接用HTML来表示是可以的。
+title: 文档编辑相关语法效果展示页面
+description: 此为Markdown语法特效展示页面，也是编辑文档时所需掌握的常用MarkDown语法。Markdown是一种轻量级的标记语言，其已成为可读性最大并可再发行的可输入输出的格式。这种语言创建灵感来自于已经存在的带标记的电子邮件文本。Markdown允许HTML语法，所以使用者如果需要可以直接用HTML来表示是可以的。
 categories: articles
 key: Jekyll, Markdown
 ---
