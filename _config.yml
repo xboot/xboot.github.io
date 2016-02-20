@@ -1,5 +1,6 @@
 exclude:      ["jekyll-serve.sh", "README"]
-markdown:     rdiscount
+markdown:     redcarpet
+highlighter:  rouge
 pygments:     true
 paginate:     5
 permalink:    /:categories/:title
