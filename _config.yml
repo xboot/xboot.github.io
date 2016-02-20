@@ -1,4 +1,4 @@
-exclude:      ["jekyll-serve.sh", "README.md"]
+exclude:      ["jekyll-serve.sh", "README"]
 markdown:     rdiscount
 pygments:     true
 paginate:     5
