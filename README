@@ -9,12 +9,11 @@ WHAT IS THE XBOOT
 XBOOT'S LOGO
 	xboot have a very beautiful character logo, see below and
 	enjoy it.
-        _
-       | |                  _        __0
-  _  _ | |___ _____ _____ _| |_    _  /\_
- \ \/ /|  _  |  _  |  _  |_   _|    \/\
-  )  ( | |_| | |_| | |_| | | |________/_____
- /_/\_\|_____|_____|_____| |________________|
+        _                   _                     
+  _  _ | |___ _____ _____ _| |_                   
+ \ \/ /|  _  |  _  |  _  |_   _|  (C) 2007-2016   
+  )  ( | |_| | |_| | |_| | | |____JIANJUN.JIANG__ 
+ /_/\_\|_____|_____|_____| |_____________________|
 
 	
 XBOOT'S VERSION
@@ -23,7 +22,7 @@ XBOOT'S VERSION
 
 
 XBOOT'S AUTHOR
-	jianjun jiang <jerryjianjun@gmail.com>
+	Jianjun Jiang <8192542@qq.com>
 	see the file of CREDITS for details.
 
 
@@ -36,21 +35,24 @@ THE OFFICIAL WEBSITE
 
 
 XBOOT'S INTEGRATED DEVELOPMENT ENVIRONMENT
-	https://code.google.com/p/xboot/downloads/list
+	http://pan.baidu.com/s/1i3ImG0d
 
+THE TOOLCHAINS FOR ARM PLATFORM
+	http://pan.baidu.com/s/1dDtssIt
 
 TO COMPILE XBOOT
 	just running below commands in xboot's root directory, or
 	using xboot's IDE directly.
 	
 	make clean
-	make TARGET=arm32-realview CROSS=/path/to/arm-none-eabi-
+	make CROSS_COMPILE=/path/to/arm-none-eabi- PLATFORM=arm32-realview
 
-	"TARGET" for your machine which will be compiled;
-	"CROSS"  for your cross compiler;
+	"CROSS_COMPILE" for your cross compiler
+	"PLATFORM" for your hardware machine which will be compiled
 
 
 RUNNING XBOOT
-	if you have no hardware machine for running xboot, you
+	if you have no hardware platform for running xboot, you
 	can using a simulator, such as qemu-system-arm in tools
 	directory.
+
