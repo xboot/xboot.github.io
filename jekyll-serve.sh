@@ -2,7 +2,7 @@
 #
 # sudo apt-get install rubygems
 # sudo gem install jekyll
-# sudo gem install rdiscount
+# sudo gem install redcarpet
 #
 
 # Start jekyll server => Now browse to http://localhost:4000
