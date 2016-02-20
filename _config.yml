@@ -1,5 +1,5 @@
-exclude:      ["jekyll-serve.sh", "README"]
-markdown:     redcarpet
+exclude:      ["jekyll-serve.sh", "README.md"]
+markdown:     rdiscount
 highlighter:  rouge
 pygments:     true
 paginate:     5

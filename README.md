@@ -6,16 +6,6 @@ WHAT IS THE XBOOT
 	based portable idea and powerful function.
 
 
-XBOOT'S LOGO
-	xboot have a very beautiful character logo, see below and
-	enjoy it.
-        _                   _                     
-  _  _ | |___ _____ _____ _| |_                   
- \ \/ /|  _  |  _  |  _  |_   _|  (C) 2007-2016   
-  )  ( | |_| | |_| | |_| | | |____JIANJUN.JIANG__ 
- /_/\_\|_____|_____|_____| |_____________________|
-
-	
 XBOOT'S VERSION
 	you can view the infomation of version using 'version'
 	command in the xboot's shell.
