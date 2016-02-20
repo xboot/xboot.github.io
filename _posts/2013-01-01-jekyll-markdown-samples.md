@@ -72,7 +72,7 @@ int printk(const char * fmt, ...)
 {% endhighlight %}
 
 ###"IMG"标签：图片提供 3 种样式，分别是<code class="code">img-center</code>, <code class="code">img-right</code>, <code class="code">img-left</code>
-<img src="/images/psb.jpg" class="img-center" width: 400px; alt="thumb" >
+<img src="/images/logo.png" class="img-center" width: 400px; alt="thumb" >
 
 ###"TABLE"标签：
 
